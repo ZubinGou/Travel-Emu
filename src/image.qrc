@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/"/>
+    <qresource prefix="/image">
+        <file>china.png</file>
+        <file>bus.png</file>
+        <file>bus_big.png</file>
+        <file>plane.png</file>
+        <file>plane_big.png</file>
+        <file>rocket.png</file>
+        <file>train.png</file>
+        <file>train_big.png</file>
+        <file>money.png</file>
+        <file>time.png</file>
+        <file>risk.png</file>
+        <file>logo.ico</file>
+        <file>logo.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,60 @@
+
+*{
+color:white;
+}
+
+QWidget,QTableWidget
+{
+        background-color:rgb(54,54,54);
+}
+
+QHeaderView::section
+{
+    background-color:rgb(128, 138, 135);
+}
+
+QLabel,QGroupBox
+{
+    color:white;
+    font:12px;
+}
+
+QLineEdit,QPlainTextEdit
+{
+        color:white;
+        font:10pt;
+
+        /*边界线 border:none 没有边界*/
+        border:1px solid rgb(128, 138, 135);
+
+        /*背景的颜色*/
+        background: rgb(54, 54, 54);
+
+        /*边角4像素圆滑*/
+        border-radius: 4px;
+}
+
+/*鼠标滑动到LineEditor时*/
+QLineEdit::hover
+{
+        color:rgb(250,250,250);  /*字体的颜色*/
+        border-color:rgb(50,480,40);
+        background-color:rgb(47,79,79);
+}
+
+QPushButton
+{
+    background-color:rgb(128, 138, 135);
+    color:white;
+    font:10pt;
+    border-radius:6px;
+}
+
+QPushButton:hover
+{
+    color:#0000ff;
+    background-color:rgb(210, 205, 205); /*改变背景色*/
+    border-style:inset;/*改变边框风格*/
+    padding-left:1px;
+    padding-top:1px;
+}
